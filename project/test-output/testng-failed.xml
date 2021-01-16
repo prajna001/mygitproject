@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Everjobs Suite]">
+  <test thread-count="5" name="project(failed)">
+    <classes>
+      <class name="com.tests.DataDrivenTest">
+        <methods>
+          <include name="fbLoginLogout" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.tests.DataDrivenTest -->
+    </classes>
+  </test> <!-- project(failed) -->
+</suite> <!-- Failed suite [Everjobs Suite] -->
